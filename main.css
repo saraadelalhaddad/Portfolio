@@ -1,0 +1,82 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #8fd0e0;
+}
+
+/*--- navigation bar ---*/
+
+.navbar {
+  background: #8fd0e0;
+}
+
+.nav-link,
+.navbar-brand {
+  color: rgb(245, 122, 194);
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+}
+
+.nav-link:hover {
+  color: rgb(245, 122, 194);
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+/*--- feature section ---*/
+
+.features {
+  margin: 4em auto;
+  padding: 1em;
+  position: relative;
+}
+
+.feature-title {
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.features img {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
+}
+
+.features .form-control,
+.features input {
+  border-radius: 0;
+}
+
+.features .btn {
+  background-color: #8fd0e0;
+  border: 1px solid #8fd0e0;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.features .btn:hover {
+  background-color: #333;
+  border: 1px solid #333;
+}
+
+.jumbotron {
+  background-image: url(lollipop1bg.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+.spacing {
+  margin-bottom: 500px;
+}
